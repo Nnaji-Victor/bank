@@ -56,5 +56,16 @@ namespace Banking_System
             openForm = dp;
             dp.Show();
         }
+
+        private void btnTransfer_Click(object sender, EventArgs e)
+        {
+            if (openForm != null)
+            {
+                openForm.Hide();
+            }
+            Transfer dp = new Transfer();
+            openForm = dp;
+            dp.Show();
+        }
     }
 }

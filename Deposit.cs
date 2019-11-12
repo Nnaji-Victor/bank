@@ -59,7 +59,10 @@ namespace Banking_System
             accNum = txtCustId.Text;
             date = txtdate.Text;
             bal = double.Parse(balance);
-            deposit = double.Parse(txtDeposit.Text);
+
+            try
+            {
+              deposit = double.Parse(txtDeposit.Text);
 
             con.Open();
             SqlCommand command = con.CreateCommand();
@@ -108,6 +111,12 @@ namespace Banking_System
             finally
             {
                 con.Close();
+            }
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Enter an amount!");
             }
 
         }

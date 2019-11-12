@@ -92,6 +92,12 @@
     <Compile Include="startBar.Designer.cs">
       <DependentUpon>startBar.cs</DependentUpon>
     </Compile>
+    <Compile Include="Transfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transfer.Designer.cs">
+      <DependentUpon>Transfer.cs</DependentUpon>
+    </Compile>
     <Compile Include="withdraw.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +133,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="startBar.resx">
       <DependentUpon>startBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transfer.resx">
+      <DependentUpon>Transfer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="withdraw.resx">
       <DependentUpon>withdraw.cs</DependentUpon>

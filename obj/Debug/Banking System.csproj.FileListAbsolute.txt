@@ -14,3 +14,20 @@ C:\Users\nnaji\Downloads\DECAGON\C#\Banking System\obj\Debug\Banking_System.Cust
 C:\Users\nnaji\Downloads\DECAGON\C#\Banking System\obj\Debug\Banking_System.AccountCreation.resources
 C:\Users\nnaji\Downloads\DECAGON\C#\Banking System\obj\Debug\Banking_System.Deposit.resources
 C:\Users\nnaji\Downloads\DECAGON\C#\Banking System\obj\Debug\Banking_System.withdraw.resources
+C:\Users\nnaji\Downloads\DECAGON\PROJECT\bank\bin\Debug\Banking System.exe.config
+C:\Users\nnaji\Downloads\DECAGON\PROJECT\bank\bin\Debug\Banking System.exe
+C:\Users\nnaji\Downloads\DECAGON\PROJECT\bank\bin\Debug\Banking System.pdb
+C:\Users\nnaji\Downloads\DECAGON\PROJECT\bank\obj\Debug\Banking System.csprojAssemblyReference.cache
+C:\Users\nnaji\Downloads\DECAGON\PROJECT\bank\obj\Debug\Banking_System.AccountCreation.resources
+C:\Users\nnaji\Downloads\DECAGON\PROJECT\bank\obj\Debug\Banking_System.Admin.resources
+C:\Users\nnaji\Downloads\DECAGON\PROJECT\bank\obj\Debug\Banking_System.Customer.resources
+C:\Users\nnaji\Downloads\DECAGON\PROJECT\bank\obj\Debug\Banking_System.Deposit.resources
+C:\Users\nnaji\Downloads\DECAGON\PROJECT\bank\obj\Debug\Banking_System.frmLogin.resources
+C:\Users\nnaji\Downloads\DECAGON\PROJECT\bank\obj\Debug\Banking_System.Properties.Resources.resources
+C:\Users\nnaji\Downloads\DECAGON\PROJECT\bank\obj\Debug\Banking_System.prgStartAdmin.resources
+C:\Users\nnaji\Downloads\DECAGON\PROJECT\bank\obj\Debug\Banking_System.prgStart.resources
+C:\Users\nnaji\Downloads\DECAGON\PROJECT\bank\obj\Debug\Banking_System.withdraw.resources
+C:\Users\nnaji\Downloads\DECAGON\PROJECT\bank\obj\Debug\Banking System.csproj.GenerateResource.cache
+C:\Users\nnaji\Downloads\DECAGON\PROJECT\bank\obj\Debug\Banking System.exe
+C:\Users\nnaji\Downloads\DECAGON\PROJECT\bank\obj\Debug\Banking System.pdb
+C:\Users\nnaji\Downloads\DECAGON\PROJECT\bank\obj\Debug\Banking_System.Transfer.resources

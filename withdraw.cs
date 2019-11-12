@@ -58,8 +58,10 @@ namespace Banking_System
             accNum = txtCustId.Text;
             date = txtdate.Text;
             bal = double.Parse(balance);
-            withdraw = double.Parse(txtWithdraw.Text);
-
+            try
+            {
+               withdraw = double.Parse(txtWithdraw.Text);
+ 
             con.Open();
             SqlCommand command = con.CreateCommand();
             SqlTransaction transaction;
@@ -78,7 +80,7 @@ namespace Banking_System
                 command.CommandText = "INSERT INTO Transactions(AccountId,date,balance,withdraw) VALUES(@accNum,@date,@bal,@withdraw)";
                 command.ExecuteNonQuery();
 
-                command.CommandText = "update [Account] set balance = balance - @deposit where accountId=@accNum";
+                command.CommandText = "update [Account] set balance = balance - @withdraw where accountId=@accNum";
                 command.ExecuteNonQuery();
 
                 transaction.Commit();
@@ -106,6 +108,12 @@ namespace Banking_System
             finally
             {
                 con.Close();
+            }
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("No amount entered!");
             }
 
         }
