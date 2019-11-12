@@ -31,3 +31,4 @@ C:\Users\nnaji\Downloads\DECAGON\PROJECT\bank\obj\Debug\Banking System.csproj.Ge
 C:\Users\nnaji\Downloads\DECAGON\PROJECT\bank\obj\Debug\Banking System.exe
 C:\Users\nnaji\Downloads\DECAGON\PROJECT\bank\obj\Debug\Banking System.pdb
 C:\Users\nnaji\Downloads\DECAGON\PROJECT\bank\obj\Debug\Banking_System.Transfer.resources
+C:\Users\nnaji\Downloads\DECAGON\PROJECT\bank\obj\Debug\Banking_System.adminOverview.resources

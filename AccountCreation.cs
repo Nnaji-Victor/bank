@@ -25,7 +25,9 @@ namespace Banking_System
 
         private void button2_Click(object sender, EventArgs e)
         {
+            adminOverview ad = new adminOverview();
             this.Close();
+            ad.Show();
         }
 
         private void label9_Click(object sender, EventArgs e)
