@@ -47,8 +47,6 @@ namespace Banking_System
 
         private void txtToAccount_TextChanged(object sender, EventArgs e)
         {
-            
-           
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -93,8 +91,6 @@ namespace Banking_System
                         txttransferPrompt.ForeColor = Color.Black;
                         btnconfirm.Enabled = true;
                         btnconfirm.BackColor = Color.Chartreuse;
-
-
                     }
                 }
             }
