@@ -109,7 +109,7 @@ namespace Banking_System
             string acctype = TxtAccntType.Text;
             string accdes = txtAccntDes.Text;
             string password = txtPassword.Text;
-           //var result = SecurePasswordHasher.Verify("mypassword", hash); 
+            password = SecurePasswordHasher.hashPassword(password); 
             double bal = double.Parse(txtBal.Text);
 
             con.Open();
