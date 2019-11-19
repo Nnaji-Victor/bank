@@ -23,7 +23,7 @@ namespace Banking_System
 
         private void withdraw_Load(object sender, EventArgs e)
         {
-            
+ 
             con.Open();
             string query = "select accountId,balance,accountType from Account where customerId=@loggedin";
             SqlCommand cmd = new SqlCommand(query, con);

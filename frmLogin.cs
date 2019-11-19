@@ -77,7 +77,7 @@ namespace Banking_System
             else if(username.StartsWith("VIC",StringComparison.OrdinalIgnoreCase))
             {
                 con.Open();
-                string query = "Select * from [Account] where customerId='" + username + "' and password='" + password + "'";
+                string query = "Select * from [Account] where customerId='" + username + "'";
 
                 SqlDataAdapter sda = new SqlDataAdapter(query, con);
                 DataTable dtb = new DataTable();
@@ -85,11 +85,21 @@ namespace Banking_System
                 sda.Fill(dtb);
                 if (dtb.Rows.Count == 1)
                 {
-                    getLoggedInUser();
-                    txtLoadStatus.Text = "Login succesful!....";
-                    prgStart sb = new prgStart();
-                    this.Hide();
-                    sb.Show();
+                    string savedPasswordHash = dtb.Rows[0][6].ToString();
+                    bool verify = SecurePasswordHasher.verify(savedPasswordHash, password);
+
+                    if (verify)
+                    {
+                        getLoggedInUser();
+                        txtLoadStatus.Text = "Login succesful!....";
+                        prgStart sb = new prgStart();
+                        this.Hide();
+                        sb.Show();
+                    }
+                    else
+                    {
+                        txtLoadStatus.Text = "Invalid Username or Password";
+                    }
                 }
 
 
