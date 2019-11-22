@@ -1,5 +1,5 @@
 # bank
-Banking application built with winform that integrates withdrawal, savings and transfer. Saves data to MSSQL Database.
+Banking application built with c# winform that integrates withdrawal, savings and transfer. Saves data to MSSQL Database.
 
 # Overview
 1. *Admin and Customer can log in*
